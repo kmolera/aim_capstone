@@ -1,0 +1,15 @@
+# Ignore default Colab data
+sample_data/
+
+# Ignore local datasets and checkpoints
+*.csv
+*.json
+*.h5
+*.pkl
+data/
+outputs/
+models/
+
+# Ignore credentials and environment variables
+.env
+.secrets
